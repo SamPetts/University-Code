@@ -1,7 +1,7 @@
 clear
 format short g
 
-addpath(genpath( 'C:\Users\sampe\Documents\University\Masters\2nd Semester\MATLAB\pmpm11\DICOM RT'));
+%% addpath(genpath( ""));  !!!!!!!!!!!!add in specfic path before running code!!!!!!!!!!!!
 
 %% CT Scan
 I ='CT1.3.6.1.4.1.2452.6.2940381419.1112065053.2033732512.1877029011.dcm';
