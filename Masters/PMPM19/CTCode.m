@@ -5,7 +5,6 @@ info_fixed1=dicominfo('14_02_07-15_44_48-STD-SPECIALS_POLYTRAUM.CT.PRIVATE_MSC_L
 width=info_fixed1.Width; height=info_fixed1.Height; bitdepth=12; slicethickness=info_fixed1.SliceThickness;
 PixelSpacing=0.8828;
 
-
 image_list= dir('*.IMA');
 i=numel(image_list);
 A=zeros([width,height,i]);
