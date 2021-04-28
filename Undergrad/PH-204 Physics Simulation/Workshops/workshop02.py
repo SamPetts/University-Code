@@ -49,7 +49,7 @@ def thereAndBackInPlace(a):
    
         b = a[::-1]
         a.append (b)
-        print (a)
+        print (a) # please return rather than print your result
     
 ###############################################################################
 
@@ -73,3 +73,4 @@ with request.urlopen("http://jamesbateman.eu/PH-204/src/spectrum.txt") as respon
 with open("spectrum.txt", 'wb') as handle:
     handle.write(contents)
 
+# 4
